@@ -8,10 +8,10 @@ exports.RESUME = 'resume';
 // Site Information
 exports.NAME = 'Web Design Journal';
 exports.TITLE = 'Web Design Journal';
-exports.PREFIX = 'LUCYBO | ';
+exports.PREFIX = 'Web Journal | ';
 exports.DESCRIPTION = 'Web Design Journal';
 exports.AUTHOR = 'Lucyna Borkowska';
-exports.EMAIL = 'lucyna.indulska@gmail.com';
+exports.EMAIL = 'lucyna.borkowska@mail.com';
 exports.KEYWORDS = [
   'Gatsby',
   'ReactJS',

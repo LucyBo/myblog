@@ -214,16 +214,6 @@ const Gnb = ({
           </ul>
         </MobileMenus>
       </MobileMenu>
-      <ToggleWrapper>
-        <Toggle
-          defaultChecked={isDracula}
-          icons={{
-            checked: <span role="img" aria-label="change-theme">🌙</span>,
-            unchecked: <span role="img" aria-label="change-theme">☀️</span>,
-          }}
-          onChange={toggleTheme}
-        />
-      </ToggleWrapper>
       <Hamburger
         className={`hamburger hamburger--spin js-hamburger ${isMenuOpened ? 'is-active' : ''}`}
         onClick={toggleMenu}
@@ -242,7 +232,6 @@ const Gnb = ({
           <StyledLink to="/pages/1" className={isPost ? 'active' : ''}>
             Posts
             &nbsp;
-            {categories.length > 0 ? <FaCaretDown /> : null}
           </StyledLink>
           <SubMenu>
             <div>

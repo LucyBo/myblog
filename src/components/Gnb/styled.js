@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Link } from 'gatsby';
-import { FaCaretDown, FaHome } from 'react-icons/fa';
+import { FaCaretDown, FaHome, FaKissWinkHeart} from 'react-icons/fa';
 import { PRIMARY_COLOR } from '~/components/Common/constants';
 
 export const Hamburger = styled.div`
@@ -52,7 +52,14 @@ export const GnbWrapper = styled.div`
   font-family: Lato;
   font-weight: 600;
   z-index: 3000;
+  background-color: rgb(245, 239, 239);
 
+  @media (max-width: 660px) {
+    height: 60px;
+    line-height: 60px;
+
+    ${hamburger}
+  }
   @media (max-width: 414px) {
     height: 60px;
     line-height: 60px;
@@ -64,7 +71,11 @@ export const GnbWrapper = styled.div`
 export const List = styled.ul`
   display: flex;
   align-items: center;
-  height: 80px;
+  height: 60px;
+
+  @media (max-width: 660px) {
+    display: none;
+  }
 
   @media (max-width: 414px) {
     display: none;
@@ -87,7 +98,7 @@ export const SubMenu = styled.ul`
 
   a:hover {
     color: ${PRIMARY_COLOR};
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
@@ -96,6 +107,10 @@ export const ListMenu = styled.li`
   position: relative;
   padding: 0 0 0 2em;
   font-weight: 500;
+
+  @media (max-width: 660px) {
+    display: none;
+  }
 
   @media (max-width: 414px) {
     display: none;
@@ -121,11 +136,19 @@ export const ListMenu = styled.li`
   }
 `;
 
-export const Home = styled(FaHome)`
-  font-size: 36px;
+export const Home = styled(FaKissWinkHeart)`
+  font-size: 26px;
 `;
 
 export const StyledLink = styled(Link)`
+
+@media (max-width: 660px) {
+  &[href="/"] {
+    display: flex;
+    height: 60px;
+    align-items: center;
+  }
+}
   @media (max-width: 414px) {
     &[href="/"] {
       display: flex;
@@ -136,12 +159,12 @@ export const StyledLink = styled(Link)`
 
   &.active {
     color: ${PRIMARY_COLOR};
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &:hover {
     color: ${PRIMARY_COLOR};
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
@@ -154,6 +177,13 @@ export const SearchBarWrapper = styled.div`
   margin: auto;
   padding: 0 36px 0 0;
   text-align: right;
+
+  @media (max-width: 660px) {
+    display: none;
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
 
   @media (max-width: 414px) {
     display: none;
@@ -189,11 +219,19 @@ export const SearchBar = styled.input`
   line-height: 2.4em;
   color: ${({ theme: { color } }) => color};
   background-color: ${({ theme: { backgroundColor } }) => backgroundColor};
-  border-radius: 4px;
-  border: 1px solid ${({ theme: { color } }) => color};
+  border: none;
   font-size: 14px;
   outline: 0;
   z-index: 1000;
+
+  @media (max-width: 660px) {
+    display: none;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
+  }
 
   @media (max-width: 414px) {
     display: none;
@@ -219,6 +257,14 @@ export const SearchedPosts = styled.div`
   font-weight: 400;
   overflow-y: auto;
 
+  @media (max-width: 660px) {
+    display: none;
+    position: static;
+    width: 100%;
+    max-height: none;
+    box-shadow: 0 0 0;
+  }
+
   @media (max-width: 414px) {
     display: none;
     position: static;
@@ -237,7 +283,7 @@ export const Title = styled.h4`
   cursor: pointer;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
@@ -249,7 +295,7 @@ export const Summary = styled.p`
   font-size: 12px;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
@@ -259,7 +305,7 @@ export const Tag = styled.span`
   font-size: 10px;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
@@ -285,6 +331,10 @@ export const Background = styled.div`
   transition: opacity .4s ease-out .1s;
   opacity: ${({ isActive }) => (isActive ? '.5' : '0')};
 
+  @media (max-width: 660px) {
+    display: block;
+  }
+
   @media (max-width: 414px) {
     display: block;
   }
@@ -303,6 +353,11 @@ export const MobileMenus = styled.div`
   z-index: 3;
   overflow-y: auto;
 
+  @media (max-width: 660px) {
+    display: block;
+    height: 100vh;
+  }
+
   @media (max-width: 414px) {
     display: block;
     height: 100vh;
@@ -317,6 +372,19 @@ export const MobileMenu = styled.section`
   width: 100%;
   height: 100%;
   z-index: 99;
+
+  @media (max-width: 660px) {
+    display: block;
+    line-height: 60px;
+    pointer-events: ${({ isActive }) => (isActive ? 'all' : 'none')};
+
+    ul,
+    li,
+    div,
+    input {
+      display: block;
+    }
+  }
 
   @media (max-width: 414px) {
     display: block;
@@ -359,6 +427,12 @@ export const ToggleWrapper = styled.label`
   top: 28px;
   right: 294px;
   z-index: 3;
+
+  @media (max-width: 660px) {
+    top: 15px;
+    right: auto;
+    left: 16px;
+  }
 
   @media (max-width: 414px) {
     top: 15px;
