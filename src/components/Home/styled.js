@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-  @import url("https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
   position: absolute;
   top: 0;
   bottom: 0;
@@ -13,7 +13,7 @@ export const Title = styled.h1`
   line-height: 1.5em;
   font-size: 24px;
   font-size: 5vw;
-  font-family: 'Old Standard TT';
+  font-family: 'Patua One';
   text-align: center;
   text-overflow: ellipsis;
   overflow: hidden;

@@ -1,11 +1,11 @@
 ---
 path: "/post-1/"
-category: "test"
-tags: ["tag", "tag-2"]
+category: "test-2"
+tags: ["tag"]
 title: "Lorem Ipsum"
-date: "2018-01-01T00:00:00.000Z"
+date: "2018-01-02T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-images: ["images/1.jpg"]
+images: ["images/3.jpg"]
 ---
 
 > Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...

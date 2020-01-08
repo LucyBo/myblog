@@ -2,7 +2,7 @@ import React, { useReducer, useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Link, navigate } from 'gatsby';
 import Toggle from 'react-toggle';
-import { FaCaretDown, FaSearch, FaTags } from 'react-icons/fa';
+import { FaSearch, FaTags } from 'react-icons/fa';
 import {
   Hamburger,
   MovableFaCaretDown,
@@ -68,8 +68,6 @@ const reducer = (state = initialState, action) => {
 
 const Gnb = ({
   location,
-  toggleTheme,
-  isDracula,
   categories,
   postInformations,
   hasPortfolio,

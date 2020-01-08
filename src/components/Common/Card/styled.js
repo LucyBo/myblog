@@ -37,9 +37,16 @@ export const TagWrapper = styled.div`
 export const StyledArticle = styled.article`
   display: inline-block;
   padding: 0 16px 16px;
-  width: 25%;
+  width: 33%;
   font-size: 14px;
   vertical-align: top;
+
+  @media (max-width: 660px) {
+    margin: 0 0 16px;
+    padding: 0 16px 16px;
+    width: 50%;
+  }
+
   @media (max-width: 414px) {
     margin: 0 0 16px;
     padding: 0 0 16px;
@@ -52,7 +59,6 @@ export const StyledArticle = styled.article`
     top: 0;
     padding: 14px;
     background-color: ${({ theme: { backgroundColor } }) => backgroundColor};
-    border-radius: 6px;
     border: 1px solid #e5e5e5;
 
     &:hover {

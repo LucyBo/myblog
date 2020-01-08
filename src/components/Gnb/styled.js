@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Link } from 'gatsby';
-import { FaCaretDown, FaHome, FaKissWinkHeart} from 'react-icons/fa';
+import { FaCaretDown, FaKissWinkHeart} from 'react-icons/fa';
 import { PRIMARY_COLOR } from '~/components/Common/constants';
 
 export const Hamburger = styled.div`
@@ -52,7 +52,7 @@ export const GnbWrapper = styled.div`
   font-family: Lato;
   font-weight: 600;
   z-index: 3000;
-  background-color: rgb(245, 239, 239);
+  background-color: #fff;
 
   @media (max-width: 660px) {
     height: 60px;
@@ -220,6 +220,8 @@ export const SearchBar = styled.input`
   color: ${({ theme: { color } }) => color};
   background-color: ${({ theme: { backgroundColor } }) => backgroundColor};
   border: none;
+  border-top: 1px solid rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(240, 240, 240);
   font-size: 14px;
   outline: 0;
   z-index: 1000;

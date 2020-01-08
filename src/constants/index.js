@@ -17,11 +17,11 @@ exports.KEYWORDS = [
   'ReactJS',
 ].join(', ');
 exports.SITE_URL = 'https://lucybo.github.io';
-exports.PROFILE = 'https://avatars3.githubusercontent.com/u/42737121?s=200&v=4';
+exports.PROFILE = 'https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Round&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Red&eyeType=Default&eyebrowType=Default&mouthType=Eating&skinColor=Pale';
 
 // Social
 exports.GITHUB_ID = 'LucyBo';
 exports.TWITTER_ID = 'LucyBorkowska';
-exports.FACEBOOK_ID = 'lucyna.borkowska';
+exports.FACEBOOK_ID = 'lucyna.borkowska11';
 exports.LINKEDIN_ID = 'lucyna-borkowska-9027a6184';
 exports.DISQUS_ID = 'LucynaBo';
