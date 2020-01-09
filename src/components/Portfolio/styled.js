@@ -46,7 +46,7 @@ export const PortfolioDescription = styled.section`
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 

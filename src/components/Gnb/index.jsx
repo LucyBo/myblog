@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, navigate } from 'gatsby';
 import Toggle from 'react-toggle';
 import { FaSearch, FaTags } from 'react-icons/fa';
+import { IoIosArrowDown } from 'react-icons/io';
 import {
   Hamburger,
   MovableFaCaretDown,
@@ -68,6 +69,8 @@ const reducer = (state = initialState, action) => {
 
 const Gnb = ({
   location,
+  toggleTheme,
+  isDracula,
   categories,
   postInformations,
   hasPortfolio,
@@ -128,7 +131,7 @@ const Gnb = ({
               </StyledLink>
             </ListMenu>
             <ListMenu>
-              <StyledLink to="/pages/1" className={isPost ? 'active' : ''} onClick={toggleMenu}>
+              <StyledLink to="/pages/1" className={isPost ? 'active' : ''} onHover={toggleMenu}>
                 Posts
               </StyledLink>
               {categories.length > 0
@@ -148,7 +151,6 @@ const Gnb = ({
                     if (key === '__ALL__') {
                       return null;
                     }
-
                     return (
                       <li key={key}>
                         <Link to={`/categories/${key}/1`} onClick={toggleMenu}>
@@ -230,6 +232,7 @@ const Gnb = ({
           <StyledLink to="/pages/1" className={isPost ? 'active' : ''}>
             Posts
             &nbsp;
+            {categories.length > 0 ? <IoIosArrowDown /> : null}
           </StyledLink>
           <SubMenu>
             <div>
@@ -302,7 +305,6 @@ const Gnb = ({
     </GnbWrapper>
   );
 };
-
 Gnb.propTypes = {
   location: PropTypes.shape({ pathname: PropTypes.string.isRequired }).isRequired,
   toggleTheme: PropTypes.func.isRequired,
@@ -311,10 +313,8 @@ Gnb.propTypes = {
   postInformations: PropTypes.arrayOf(PropTypes.shape({})),
   hasPortfolio: PropTypes.bool.isRequired,
 };
-
 Gnb.defaultProps = {
   categories: [],
   postInformations: [],
 };
-
 export default Gnb;

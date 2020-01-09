@@ -73,7 +73,7 @@ export const StyledArticle = styled.article`
       h3,
       p,
       small {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }

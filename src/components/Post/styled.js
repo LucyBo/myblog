@@ -9,7 +9,7 @@ export const Tags = styled.div`
     text-decoration: blink;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 `;

@@ -19,3 +19,5 @@ export const Title = styled.h1`
   overflow: hidden;
   white-space: nowrap;
 `;
+
+

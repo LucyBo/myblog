@@ -1,11 +1,11 @@
 ---
-path: "/post-1/"
-category: "javascript"
-tags: ["javascript"]
-title: "JavaScript"
+path: "/post-4/"
+category: "Gatsby"
+tags: ["gatsby", "javascript"]
+title: "Gatsby"
 date: "2018-01-02T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-images: ["images/3.jpg"]
+images: ["images/6.jpg"]
 ---
 
 > Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...

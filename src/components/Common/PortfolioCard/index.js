@@ -56,7 +56,7 @@ const PortfolioCard = styled.section`
     bottom: 16px;
     left: 16px;
     font-size: 14px;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   h4 {

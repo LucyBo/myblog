@@ -1,15 +1,15 @@
 ---
 path: "/post-3/"
-category: "test-999"
+category: "CSS"
 tags: ["tag"]
-title: "React application inside of post"
+title: "CSS"
 date: "2018-01-09T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 components: [{
   rootId: 'sample-component',
   fileName: 'sample',
 }]
-images: ["images/7.jpg"]
+images: ["images/5.jpg"]
 ---
 
 <div id="sample-component"></div>

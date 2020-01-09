@@ -19,7 +19,7 @@ const Wrapper = styled(SimpleWrapper)`
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 

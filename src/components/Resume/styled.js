@@ -66,7 +66,7 @@ export const MDInformation = styled.section`
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
