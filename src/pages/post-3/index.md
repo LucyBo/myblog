@@ -1,8 +1,8 @@
 ---
 path: "/post-3/"
-category: "CSS"
-tags: ["tag"]
-title: "CSS"
+category: "3"
+tags: ["3"]
+title: "3"
 date: "2018-01-09T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 components: [{

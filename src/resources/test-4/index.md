@@ -1,6 +1,6 @@
 ---
 type: "portfolio"
-title: "Gatsby Advanced Blog"
+title: "Kości"
 date: "2018-01-04:00:00.000Z"
 path: "/portfolios/portfolio-4/"
 images: [
@@ -10,15 +10,12 @@ images: [
 ]
 ---
 
-# Gatsby Advanced Blog
+# Kości. Mini projekt z interfejsem do grania w kości. 
 
-## What I did
-- Develop Gatsby Advanced Blog
+## O co chodzi? 
+- rzuć 5 kostkami i sprawdź, którą konfigurację z listy udało Ci się uzyskać. Pozycje 3 kostek można zamrozić i dwukrotnie powtórzyć losowanie pozostałymi. 
 
-## Libraries / Tools
+## Narzędzia
 - ReactJS
-- Redux
-- Redux saga
-- ...
 
-[Go to Web Site →](https://github.com/wonism/gatsby-advanced-blog)
+[Zacznij grę →](https://github.com/wonism/gatsby-advanced-blog)

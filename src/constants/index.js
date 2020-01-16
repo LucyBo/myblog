@@ -1,5 +1,5 @@
-exports.CONTENT_PER_PAGE = 8;
-exports.PAGE_PER_SCREEN = 4;
+exports.CONTENT_PER_PAGE = 12;
+exports.PAGE_PER_SCREEN = 6;
 
 exports.POST = 'post';
 exports.PORTFOLIO = 'portfolio';
@@ -11,7 +11,7 @@ exports.TITLE = 'Web Design Journal';
 exports.PREFIX = 'Web Journal | ';
 exports.DESCRIPTION = 'Web Design Journal';
 exports.AUTHOR = 'Lucyna Borkowska';
-exports.EMAIL = 'lucyna.borkowska@mail.com';
+exports.EMAIL = 'planbezwad@gmail.com';
 exports.KEYWORDS = [
   'Gatsby',
   'ReactJS',

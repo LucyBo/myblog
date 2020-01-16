@@ -1,8 +1,8 @@
 ---
 path: "/post-6/"
-category: "review"
-tags: ["review"]
-title: "Review"
+category: "6"
+tags: ["6"]
+title: "6"
 date: "2018-01-02T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 images: ["images/8.jpg"]

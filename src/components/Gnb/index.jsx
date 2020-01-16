@@ -131,7 +131,7 @@ const Gnb = ({
               </StyledLink>
             </ListMenu>
             <ListMenu>
-              <StyledLink to="/pages/1" className={isPost ? 'active' : ''} onHover={toggleMenu}>
+              <StyledLink to="/pages/1" className={isPost ? 'active' : ''} onClick={toggleMenu}>
                 Posts
               </StyledLink>
               {categories.length > 0
@@ -234,7 +234,9 @@ const Gnb = ({
             &nbsp;
             {categories.length > 0 ? <IoIosArrowDown /> : null}
           </StyledLink>
+          
           <SubMenu>
+          
             <div>
               {categories.map(({ key, length }) => {
                 if (key === '__ALL__') {

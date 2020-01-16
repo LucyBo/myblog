@@ -1,23 +1,39 @@
 ---
 path: "/post-1/"
-category: "javascript"
-tags: ["javascript"]
-title: "JavaScript"
+category: "gatsby"
+tags: ["gatsby"]
+title: "Gatsby."
 date: "2018-01-02T00:00:00.000Z"
-summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+summary: "Nieszczęśliwa miłość, prohibicja i gangsterzy czyli gdzie założyć swojego bloga?"
 images: ["images/3.jpg"]
 ---
 
-> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 
-> There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+Na absolutnie każdym forum dotyczącym biznesu i biznesu on-line pada pytanie: na jaką platformę blogową się zdecydować? Gdzie najlepiej założyć stronę?  Próba jednoznacznej odpowiedzi dla kogoś, kto nie ma w temacie żadnej wiedzy,  wymagałaby pewnie 100 iteracji i  pytań pomocniczych, a jej schemat blokowy byłby dłuższy niż kolejka po piwo na dożynkach.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed porttitor orci, a porta augue. Vestibulum augue velit, interdum in sagittis vel, gravida volutpat erat. Suspendisse ultrices tellus lorem, rhoncus finibus nisl pharetra et. Morbi aliquam, massa in sagittis imperdiet, nisi metus consequat ipsum, eu congue mi ipsum vel ante. Proin consequat libero eu facilisis aliquet. Mauris viverra malesuada elit, at suscipit est ullamcorper sed. Integer commodo ultricies ligula, ut mattis elit tincidunt sit amet. Vivamus nec sapien sit amet turpis finibus feugiat. Ut nec felis dictum, porttitor nisl eget, imperdiet lacus. Aenean lobortis purus vitae consequat molestie. Pellentesque rhoncus nunc at semper ornare. Vivamus sagittis consequat imperdiet. Fusce a lorem in mauris iaculis fermentum. Maecenas fringilla id erat in varius. Duis imperdiet posuere mi. Donec accumsan ante sed turpis hendrerit, eget mattis massa dapibus.
+Uznajmy więc, że pytanie  -na czym mam sobie sam napisać statyczną stronę? Zmienia postać rzeczy i daje zielone światło do rozważań na temat jednego z frameworkó, który sam o sobie mówi:
 
-Cras fermentum mollis condimentum. Nullam eu enim id quam rhoncus molestie. Mauris ut lectus ac sapien blandit egestas. Donec dictum ornare euismod. Vivamus ac augue tristique neque convallis eleifend. In sed massa est. Nullam consectetur dapibus tempor. Donec molestie ligula lacus, ultrices placerat elit tempor non. Nulla tempor consequat condimentum. Morbi sollicitudin nulla condimentum ex maximus, vel ultricies felis bibendum. Morbi et tellus ac erat cursus euismod.
 
-Proin dictum arcu id ultricies vestibulum. Nulla facilisi. Donec at nulla sed sapien egestas lacinia sed quis dui. In felis velit, efficitur at nibh eget, consequat commodo elit. Mauris porta, lectus at varius iaculis, metus erat consequat nisl, at dignissim erat lorem quis enim. Phasellus iaculis erat sit amet condimentum consectetur. Aliquam orci tortor, pretium at ultricies eu, auctor molestie tellus. Donec luctus lacinia augue a vestibulum. Proin vulputate dictum euismod. Quisque nec erat lacinia purus tristique dictum. Curabitur cursus rhoncus ex nec aliquet.
+Fast in every way that matters. 
 
-Donec eu tincidunt nibh. Sed vel facilisis turpis. Fusce pulvinar mi sollicitudin turpis iaculis, quis posuere tellus tristique. Vestibulum vulputate, neque ut faucibus finibus, libero risus varius est, quis sagittis sapien nibh non ligula. Suspendisse sodales interdum diam ac ullamcorper. In magna lectus, hendrerit ut nisl non, faucibus dignissim magna. Mauris vel tincidunt turpis. Aenean eget urna eget sem venenatis tempor. Duis sodales ut est vehicula pellentesque. Mauris maximus laoreet eros quis sagittis. Donec ornare magna sit amet sapien mattis blandit. Proin tempus felis et hendrerit vehicula. Fusce semper quis diam sed vulputate. Phasellus accumsan mauris ac urna vestibulum fringilla. Sed viverra venenatis metus, et euismod neque tempor sed. Aliquam pellentesque volutpat ante, at hendrerit tellus porttitor id.
+Gatsby.  
 
-Fusce quis lectus sit amet lectus interdum consequat. In ultricies lorem id massa rhoncus suscipit. Sed a ornare velit. In hac habitasse platea dictumst. In convallis iaculis ligula id fermentum. Vestibulum gravida vulputate velit, in ornare metus ultricies ac. Maecenas congue metus risus, vitae tincidunt ipsum aliquet sit amet.
+Subiektywnie i z przykładami. 
+
+> Wprowadzenie: Gatsby to darmowy, open-sourceowy  framework bazujący na Reakcie, który pomaga budować developerom błyskotliwe,szybkie strony i apki. 
+
+10 minut. Tyle potrzeba, żeby podążając za instrukcją utworzyć w Gatsbym stronę bazującą na jednym z wielu dostępnych szablonów.  10 minut, zakładając, że pomylicie się dwa razy i za każdym razem zaczniecie od początku. Gatsby dla osób, które mają z nim pierwszą styczność jest łagodny i bajecznie prosty. 
+
+Z 327  Gatsby-starterów możecie wybierać wygląd i funkcjonalność Waszej strony. Startery na podstawie których można rozpocząć dalsze modyfikacje, z reguły są responsywne i dzielą się na kategorie wg sposobu użytkowania czy przeznaczenia. Mają w różnych konfiguracjach zaimplementowane np.  Disqus, Google-Analitics, autentykację przez Moltin, a jeśli nie mają, to w łatwy sposób można dodać elementy dostoswane do indywidualnych potrzeb. Layout Gatsbyego można wdrożyć w całości, nie przejmując się niedoskonałym wyglądem, podmienić personalne dane w JSONie dotyczące autora i w pełni korzystać z możliwości interakcji online w przyzwoitej formie, którą daje Markdown.  
+
+Czy startery Gatsbiego są bez wad? 
+
+Być może tak, ale nie wszystkie. Ten blog powstał na starterze Wonism i lista błędów czy problemów w logice szybko narastała. Nie były to jednak rzeczy uniemożliwiające prace nad rozwojem strony. W pierwszej kolejności wypłynęły: błędy w datowaniu, żyjące własnym życiem kategorie postów i konflikty CSS-ów, cały routing – bez zarzutów. W  komplecie plików łatwo się odnaleźć, organizacja folderów zgodnie z przyjętymi standardami. To wszystko daje doskonałą szansę, żeby:
+
+-nie utonąć w pracach od zera
+
+-nie zniechęcić się ilością kodu do napisania
+
+-nie stracić czasu na pielęgnowanie projektu, który będzie doskonały pod względem estetycznym czy merytorycznym, ale nie doczeka się publikacji na skutek problemów technicznych lub zmęczenia autora. 
+
+A Wy jak tam? Grzejecie Wordpressy czy migrujecie? 

@@ -1,16 +1,19 @@
 ---
 path: "/post-2/"
-category: "react"
-tags: ["react"]
-title: "Tweets inside of post"
-date: "2018-01-08T00:00:00.000Z"
+category: "2"
+tags: ["2"]
+title: "2"
+date: "2018-01-02T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-tweets: [{
-  rootId: 'sample-tweet',
-  userId: 'twitter',
-  tweetId: '977557540199456775',
-}]
 images: ["images/4.jpg"]
 ---
 
-<div id="sample-tweet"></div>
+> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+> There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed porttitor orci, a porta augue. Vestibulum augue velit, interdum in sagittis vel, gravida volutpat erat. Suspendisse ultrices tellus lorem, rhoncus finibus nisl pharetra et. Morbi aliquam, massa in sagittis imperdiet, nisi metus consequat ipsum, eu congue mi ipsum vel ante. Proin consequat libero eu facilisis aliquet. Mauris viverra malesuada elit, at suscipit est ullamcorper sed. Integer commodo ultricies ligula, ut mattis elit tincidunt sit amet. Vivamus nec sapien sit amet turpis finibus feugiat. Ut nec felis dictum, porttitor nisl eget, imperdiet lacus. Aenean lobortis purus vitae consequat molestie. Pellentesque rhoncus nunc at semper ornare. Vivamus sagittis consequat imperdiet. Fusce a lorem in mauris iaculis fermentum. Maecenas fringilla id erat in varius. Duis imperdiet posuere mi. Donec accumsan ante sed turpis hendrerit, eget mattis massa dapibus.
+
+Cras fermentum mollis condimentum. Nullam eu enim id quam rhoncus molestie. Mauris ut lectus ac sapien blandit egestas. Donec dictum ornare euismod. Vivamus ac augue tristique neque convallis eleifend. In sed massa est. Nullam consectetur dapibus tempor. Donec molestie ligula lacus, ultrices placerat elit tempor non. Nulla tempor consequat condimentum. Morbi sollicitudin nulla condimentum ex maximus, vel ultricies felis bibendum. Morbi et tellus ac erat cursus euismod.
+
+Proin dictum arcu id ultricies vestibulum. Nulla facilisi. Donec at nulla sed sapien egestas lacinia sed quis dui. In felis velit, efficitur at nibh eget, consequat commodo elit. Mauris porta, lectus at varius iaculis, metus erat consequat nisl, at dignissim erat lorem quis enim. Phasellus iaculis erat sit amet condimentum consectetur. Aliquam orci tortor, pretium at ultricies eu, auctor molestie tellus. Donec luctus lacinia augue a vestibulum. Proin vulputate dictum euismod. Quisque nec erat lacinia purus tristique dictum. Curabitur cursus rhoncus ex nec aliquet.

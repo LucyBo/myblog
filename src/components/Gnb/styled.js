@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Link } from 'gatsby';
-import { IoMdHome} from 'react-icons/io';
-import { IoIosArrowDown} from 'react-icons/io';
+import { IoMdHome, IoIosArrowDown } from 'react-icons/io';
 import { PRIMARY_COLOR } from '~/components/Common/constants';
 
 export const Hamburger = styled.div`
@@ -93,13 +92,12 @@ export const SubMenu = styled.ul`
   font-weight: 500;
   overflow: hidden;
   transition: max-height .4s ease-out .1s;
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2;
   column-count: 2;
   align-items: center;
   width: 100vw;
   background-color: rgba(245, 123, 143, 1);
   margin-left: -90px;
+  height: 8rem;
 
   li {
     font-size: 12px;
